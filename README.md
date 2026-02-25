@@ -24,7 +24,7 @@ The smallest optimal integer is always a **primorial** — the product of the fi
 
 $$2,\quad 2 \cdot 3,\quad 2 \cdot 3 \cdot 5,\quad 2 \cdot 3 \cdot 5 \cdot 7,\quad \ldots$$
 
-Any other selection of $k$ distinct primes produces a strictly larger product (by the minimality of the smallest primes), so the $k$-th primorial is the *tightest* witness. If it exceeds $n$, no integer in $[1, n]$ can have $k$ distinct prime factors.
+Any other selection of only $k$ distinct primes produces a strictly larger product (by the minimality of the smallest primes), so the $k$-th primorial is the *tightest* witness. If it exceeds $n$, no integer in $[1, n]$ can have $k$ distinct prime factors.
 
 The algorithm therefore just multiplies primes greedily until the running product would exceed $n$, and counts how many fit.
 
