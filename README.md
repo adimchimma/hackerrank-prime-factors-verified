@@ -38,7 +38,7 @@ The algorithm therefore just multiplies primes greedily until the running produc
 ├── cpp/
 │   └── solution.cpp          # C++ solution (HackerRank submission)
 └── rocq/
-    └── PrimeFactors.v         # Rocq formalization and correctness proof
+    └── proof.v               # Rocq formalization and correctness proof
 ```
 
 ---
