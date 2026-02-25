@@ -20,7 +20,7 @@ Because $30 = 2 \times 3 \times 5$ has 3 distinct prime factors, and no integer 
 
 ## Key Insight
 
-The optimal integer is always a **primorial** — the product of the first $k$ distinct primes:
+The smallest optimal integer is always a **primorial** — the product of the first $k$ distinct primes:
 
 $$2,\quad 2 \cdot 3,\quad 2 \cdot 3 \cdot 5,\quad 2 \cdot 3 \cdot 5 \cdot 7,\quad \ldots$$
 
