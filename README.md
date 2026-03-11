@@ -35,15 +35,13 @@ The algorithm therefore just multiplies primes greedily until the running produc
 ```
 .
 ├── README.md
-├── cpp/
-│   └── solution.cpp          # C++ solution (HackerRank submission)
-└── rocq/
-    └── proof.v               # Rocq formalization and correctness proof
+├── solution.cpp              # C++ solution (HackerRank submission)
+└── proof.v                   # Rocq formalization and correctness proof
 ```
 
 ---
 
-## C++ Solution (`cpp/solution.cpp`)
+## C++ Solution (`solution.cpp`)
 
 ### How it works
 
@@ -81,7 +79,7 @@ Input format: first line is $t$ (number of test cases), then $t$ lines each cont
 
 ### Requirements
 
-- [Rocq](https://rocq-prover.org/) (formerly Coq) ≥ 8.18, or a recent Coq installation
+- [Rocq](https://rocq-prover.org/) (formerly Coq) ≥ 8.18, or a recent Coq installation | There is also an online [integrated development environment](https://coq.vercel.app/)
 
 ### Check the proof
 
@@ -89,7 +87,7 @@ Input format: first line is $t$ (number of test cases), then $t$ lines each cont
 coqc rocq/PrimeFactors.v
 ```
 
-A clean run with no output means all proofs are accepted.
+A clean run with no output means all proofs are accepted. You can also step through it interactively using [_CoqProject](https://github.com/DistributedComponents/coqproject)
 
 ### Proof structure
 
